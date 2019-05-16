@@ -30,10 +30,10 @@ export class Leads extends Component {
           <tbody>
             {this.props.leads.map(lead => (
               <tr key={lead.id}>
-                <tb>{lead.id}</tb>
-                <tb>{lead.name}</tb>
-                <tb>{lead.email}</tb>
-                <tb>{lead.message}</tb>
+                <tb>{lead.id}&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;</tb>
+                <tb>{lead.name}&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;</tb>
+                <tb>{lead.email}&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;</tb>
+                <tb>{lead.message}&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;</tb>
                 <tb>
                   <button
                     onClick={this.props.deleteLead.bind(this, lead.id)}

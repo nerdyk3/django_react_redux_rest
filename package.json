@@ -24,7 +24,12 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-alert": "^5.5.0",
+    "react-alert-template-basic": "^1.0.0",
+    "react-alert-template-oldschool-dark": "^1.0.1",
+    "react-dom": "^16.8.6",
+    "react-meerkat-template-dark": "^1.0.1",
+    "react-transition-group": "^4.0.1"
   },
   "description": ""
 }
